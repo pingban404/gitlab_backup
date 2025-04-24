@@ -3,6 +3,7 @@
 gitlab:
    url: "http://192.168.8.124:8929"
    private_token: "SocCSFdQi7EpaCk7nFR3"
+   max_projects: 100  # 最大项目数量
 output:
   dir: "output"
 

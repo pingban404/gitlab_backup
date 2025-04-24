@@ -68,6 +68,7 @@ flowchart TD
 gitlab:
   url: "http://192.168.8.124:8929"  # GitLab 服务器地址
   private_token: "your_token_here"   # GitLab 个人访问令牌
+  max_projects: 100  # 最大项目数量
 ```
 
 - `url`: GitLab 服务器的地址，支持 HTTP 或 HTTPS

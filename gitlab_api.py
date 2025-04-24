@@ -1,7 +1,7 @@
 import requests
 import time
 from tqdm import tqdm
-from config import GITLAB_URL, PRIVATE_TOKEN, MAX_RETRIES, RETRY_DELAY
+from config import GITLAB_URL, PRIVATE_TOKEN, MAX_RETRIES, RETRY_DELAY, config
 import os
 
 def get_projects(save_automatically=False):
@@ -9,7 +9,7 @@ def get_projects(save_automatically=False):
     url = f"{GITLAB_URL}/api/v4/projects"
     params = {
         "simple": "true",
-        "per_page": 100
+        "per_page": config['gitlab']['max_projects']
     }
     headers = {"PRIVATE-TOKEN": PRIVATE_TOKEN}
     
