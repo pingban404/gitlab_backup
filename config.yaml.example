@@ -1,0 +1,11 @@
+
+# 用于用户令牌和访问链接
+gitlab:
+   url: "http://192.168.8.124:8929"
+   private_token: "SocCSFdQi7EpaCk7nFR3"
+output:
+  dir: "output"
+
+download:
+  max_retries: 3
+  retry_delay: 10  # 秒 
