@@ -1,6 +1,11 @@
 # GitLab 项目导出工具
 
 这是一个用于导出 GitLab 项目的工具，支持查询项目列表和导出项目功能。
+>本项目对一些gitlab的api进行了封装，方便使用
+>不是对项目进行git clone
+>详细请求请参考[request.http](request.http)
+>使用的API为v4版本
+>详细api文档请参考[gitlab api文档](https://docs.gitlab.com/api/rest/)
 
 ## 功能特点
 

@@ -4,7 +4,7 @@
  #######
 
 ########下载导出文件
- curl --header "PRIVATE-TOKEN: SocCSFdQi7EpaCk7nFR3" --remote-header-name      --remote-name "http://192.168.8.124:8929//api/v4/projects/2/export/download"
+ curl --header "PRIVATE-TOKEN: SocCSFdQi7EpaCk7nFR3" --remote-header-name  --remote-name "http://192.168.8.124:8929/api/v4/projects/2/export/download"
 ########
 
  ######
